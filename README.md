@@ -1,7 +1,7 @@
 # rdh/rubyter README
 
 ## Introduction
-Setting up Jupyter and iruby as described in [Ruby and Jupyter Notebooks](https://nithinbekal.com/posts/ruby-jupyter-notebooks/).
+Setting up Jupyter and iruby as described in [Ruby and Jupyter Notebooks](https://nithinbekal.com/posts/ruby-jupyter-notebooks/) on a Mac, from the ground up.
 
 ## Getting Started
 
@@ -47,6 +47,17 @@ Note: You'll need to add `~/.local/bin` to the `PATH` in your shell.
 ```
 pipenv install
 ```
+
+9.  Register Ruby with Jupyter
+```
+iruby register --force
+```
+
+10.  Open Jupyter
+```
+pipenv run jupyter notebook notebooks/hello.ipynb
+```
+
 
 ## References
 
