@@ -27,33 +27,38 @@ rbenv install $(cat .ruby-version)
 gem install bundler
 ```
 
-5.  Install [pyenv](https://github.com/pyenv/pyenv)
+5.  Install Rubygems
+```
+bundle install
+```
+
+6.  Install [pyenv](https://github.com/pyenv/pyenv)
 ```
 brew install pyenv
 ```
 
-6.  Install [Python](https://www.python.org)
+7.  Install [Python](https://www.python.org)
 ```
 pyenv install $(cat .python-version)
 ```
 
-7.  Install [pipenv](https://pipenv.pypa.io)
+8.  Install [pipenv](https://pipenv.pypa.io)
 ```
 pip install pipenv --user
 ```
 Note: You'll need to add `~/.local/bin` to the `PATH` in your shell.
 
-8.  Install Python packages
+9.  Install Python packages
 ```
 pipenv install
 ```
 
-9.  Register Ruby with Jupyter
+10.  Register Ruby with Jupyter
 ```
 iruby register --force
 ```
 
-10.  Open Jupyter
+11.  Open Jupyter
 ```
 pipenv run jupyter notebook notebooks/hello.ipynb
 ```
