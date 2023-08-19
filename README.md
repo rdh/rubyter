@@ -64,6 +64,21 @@ pipenv run jupyter notebook notebooks/hello.ipynb
 ```
 
 
+## How To
+
+### OpenAI
+
+1.  Set up ENV
+```
+cp notebooks/openai/.env.template notebooks/openai/.env
+```
+Note: Update the `.env` file with your API key
+
+2.  Open the notebook
+```
+pipenv run jupyter notebook notebooks/openai/hello.ipynb
+```
+
 ## References
 
 ### Blogs
