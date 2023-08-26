@@ -4,3 +4,7 @@
 # Env
 .env
 
+# models
+/models/*
+!/models/.keep
+

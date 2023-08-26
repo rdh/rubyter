@@ -66,6 +66,17 @@ pipenv run jupyter notebook notebooks/hello.ipynb
 
 ## How To
 
+### Llama
+1.  Install the [llama_cpp](https://github.com/yoshoku/llama_cpp.rb) gem
+```
+gem install llama_cpp -- --with-metal
+```
+
+2.  Download a model
+```
+curl -L https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/resolve/main/llama-2-7b-chat.ggmlv3.q4_K_M.bin --output ./models/llama-2-7b-chat.ggmlv3.q4_K_M.bin
+```
+
 ### OpenAI
 
 1.  Set up ENV
@@ -83,6 +94,12 @@ pipenv run jupyter notebook notebooks/openai/hello.ipynb
 
 ### Blogs
 * [Ruby and Jupyter Notebooks](https://nithinbekal.com/posts/ruby-jupyter-notebooks/)
+
+### Llama
+* [Llama-2-7B-Chat-GGML](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML)
+
+### OpenAI
+* [ruby-openai](https://github.com/alexrudall/ruby-openai)
 
 ### Python
 * [pyenv](https://github.com/pyenv/pyenv)
