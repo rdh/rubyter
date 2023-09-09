@@ -95,7 +95,11 @@ pipenv run jupyter notebook notebooks/openai/hello.ipynb
 ### Blogs
 * [Ruby and Jupyter Notebooks](https://nithinbekal.com/posts/ruby-jupyter-notebooks/)
 
-### Llama
+### Llama 2
+* [Llama 2 is here - get it on Hugging Face](https://huggingface.co/blog/llama2)
+* [Run Llama-2 Locally in 7 Lines!](https://lastmileai.dev/workbooks/clkbifegg001jpheon6d2s4m8)
+
+* [https://github.com/ggerganov/llama.cpp](ggerganov/llama.cpp)
 * [Llama-2-7B-Chat-GGML](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML)
 
 ### OpenAI
